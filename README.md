@@ -10,7 +10,7 @@ This project is a full-stack application that generates images based on user inp
 │   ├── src         # Source Files
 │   ├── ...
 ├── backend         # Python Backend
-├── app.py          # Flask App
+|   ├── app.py      # Flask App
 ```
 
 ## Setup and Run
