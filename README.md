@@ -11,7 +11,7 @@ sh```
 │   ├── ...
 ├── venv            # Python Virtual Environment
 ├── app.py          # Flask App
-```
+``
 
 ## Setup and Run
 
@@ -25,14 +25,14 @@ cd image-generator
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install Flask openai requests flask-cors
-```
+``
 
 #### 2. Run the Backend
 
 sh```
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 python app.py
-```
+``
 
 ### Frontend
 
@@ -41,13 +41,13 @@ python app.py
 sh```
 cd client
 npm install
-```
+``
 
 #### 4. Run the Frontend
 
 sh```
 npm start
-```
+``
 
 ## Usage
 
