@@ -4,14 +4,14 @@ This project is a full-stack application that generates images based on user inp
 
 ## Project Structure
 
-sh```
+```
 .
 ├── client          # React Frontend
 │   ├── src         # Source Files
 │   ├── ...
 ├── venv            # Python Virtual Environment
 ├── app.py          # Flask App
-``
+```
 
 ## Setup and Run
 
@@ -19,35 +19,35 @@ sh```
 
 #### 1. Setup Virtual Environment and Install Dependencies
 
-sh```
+```
 mkdir image-generator
 cd image-generator
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install Flask openai requests flask-cors
-``
+```
 
 #### 2. Run the Backend
 
-sh```
+```
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 python app.py
-``
+```
 
 ### Frontend
 
 #### 3. Setup and Install Dependencies
 
-sh```
+```
 cd client
 npm install
-``
+```
 
 #### 4. Run the Frontend
 
-sh```
+```
 npm start
-``
+```
 
 ## Usage
 
