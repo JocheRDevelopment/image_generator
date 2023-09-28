@@ -143,6 +143,7 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+venv/
 build/
 develop-eggs/
 dist/

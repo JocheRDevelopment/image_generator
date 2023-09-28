@@ -9,7 +9,7 @@ This project is a full-stack application that generates images based on user inp
 ├── client          # React Frontend
 │   ├── src         # Source Files
 │   ├── ...
-├── venv            # Python Virtual Environment
+├── backend         # Python Backend
 ├── app.py          # Flask App
 ```
 
