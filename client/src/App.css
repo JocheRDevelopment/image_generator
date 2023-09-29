@@ -28,6 +28,50 @@
   color: #61dafb;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.neon {
+  color: #ff2525;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: 10px solid #00e1ff;
+  border-radius: 5px;
+  padding: 10px;
+  border-style: double;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
